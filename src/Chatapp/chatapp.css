@@ -1,0 +1,35 @@
+.message-container {
+    width: 70vw;
+    height: 72vh;
+    margin-top: 1.5em;
+    padding: 16px;
+    flex-grow: 1;
+    border: 1px solid rgba(7, 7, 48, 0.74);
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-input-container {
+    display: flex;
+    gap: 4px;
+    
+}
+
+.message-input {
+    padding: 12px 8px;
+    flex: 0.7;
+    background: rgb(28, 8, 46);
+    color: aliceblue;
+    border-radius: 3px solid rgb(21, 21, 29);
+}
+
+.send-message {
+    padding: 12px 14px;
+    flex: 0.3;
+    background: rgb(5, 5, 31);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
